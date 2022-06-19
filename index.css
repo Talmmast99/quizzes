@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#app {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#app button#btnStart {
+  padding: 15px 35px;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#app .quiz-box {
+  text-align: center;
+}
+
+#app .quiz-box .list-quiz label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 10px;
+  min-width: 300px;
+  border-radius: 10px;
+  background-color: #ededed;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#app .quiz-box .list-quiz label span {
+  margin-left: 10px;
+}
+
+#app .quiz-box .quiz-question {
+  margin-bottom: 20px;
+}
+
+#app .quiz-box .next-quiz {
+  background-color: #009494;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popUpMessage {
+  position: absolute;
+  left: 5%;
+  bottom: 30px;
+  background-color: #5ec85e;
+  color: #0c5d0c;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.success, .failed {
+  width: 300px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.success.success, .failed.success {
+  background-color: #3ea13e;
+  color: #004b00;
+}
+
+.success.failed, .failed.failed {
+  color: #a00000;
+  background-color: #ff5252;
+}
+/*# sourceMappingURL=index.css.map */
